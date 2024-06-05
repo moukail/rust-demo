@@ -8,6 +8,12 @@ git remote add origin https://github.com/moukail/rust-demo.git
 git remote -v
 git push -u origin master
 ```
+to pull
+```bash
+git pull
+```
+
+
 to login use personal access token as password with repo scope
 https://github.com/settings/tokens/new
 
