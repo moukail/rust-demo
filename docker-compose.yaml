@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  backend:
+    container_name: rust
+    user: root
+    build:
+      context: .docker
+      dockerfile: Dockerfile
+    volumes:
+      - ./src:/var/www
+    tty: true
