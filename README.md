@@ -17,6 +17,11 @@ git pull
 to login use personal access token as password with repo scope
 https://github.com/settings/tokens/new
 
+### to undo the last commit and keep the changes
+```bash
+git reset HEAD~1
+```
+
 ### Rust Docs
 https://doc.rust-lang.org/book/ch01-01-installation.html
 
