@@ -17,6 +17,13 @@ git pull
 to login use personal access token as password with repo scope
 https://github.com/settings/tokens/new
 
+### commit
+```bash
+git add README.md
+git status
+git commit -m "test commit 1"
+```
+
 ### to undo the last commit and keep the changes
 ```bash
 git reset HEAD~1
