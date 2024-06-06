@@ -73,6 +73,15 @@ git commit --amend
 git push --force
 ```
 
+#### to remove the file from an older commit
+```bash
+git rebase -i <commit-hash>
+# In the interactive mode, choose the commit you wish to edit by marking it with edit. Git will stop at that commit, giving you the chance to remove the file
+git rm <file-name>
+git commit --amend
+git rebase --continue
+```
+
 ### Rust Docs
 https://doc.rust-lang.org/book/ch01-01-installation.html
 
